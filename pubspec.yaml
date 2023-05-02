@@ -59,9 +59,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -74,6 +74,19 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/Muli.ttf
+        - asset: assets/fonts/Muli-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/Muli-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Muli-SemiBold.ttf
+          weight: 700
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Regular.otf
   # fonts:
   #   - family: Schyler
   #     fonts:
