@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:steadycallendar/config/styles.dart';
 
-class SCFlatBytton extends StatelessWidget {
-  const SCFlatBytton(this.child,
+class SCFlatButton extends StatelessWidget {
+  const SCFlatButton(this.child,
       {super.key, this.textColor, this.backgroundColor, this.onTap});
   final Widget child;
   final GestureTapCallback? onTap;
