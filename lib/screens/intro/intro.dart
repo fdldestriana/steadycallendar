@@ -24,17 +24,17 @@ class Intro extends StatelessWidget {
           ],
         ),
         Positioned(
-            width: MediaQuery.of(context).size.width,
-            height: 60,
-            bottom: 50,
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: SCFlatButton(
-                const Text('Get Started'),
-                onTap: () =>
-                    Navigator.pushNamed(context, LoginOptions.routeName),
-              ),
-            ))
+          width: MediaQuery.of(context).size.width,
+          height: 60,
+          bottom: 50,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: SCFlatButton(
+              const Text('Get Started'),
+              onTap: () => Navigator.pushNamed(context, LoginOptions.routeName),
+            ),
+          ),
+        )
       ],
     );
   }

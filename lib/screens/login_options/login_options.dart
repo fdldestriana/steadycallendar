@@ -15,13 +15,15 @@ class LoginOptions extends StatelessWidget {
         children: [
           Container(
             decoration: const BoxDecoration(
-                image: DecorationImage(
-                    image: AssetImage('assets/images/pink-plants@3x.png'),
-                    fit: BoxFit.cover)),
+              image: DecorationImage(
+                  image: AssetImage('assets/images/pink-plants@3x.png'),
+                  fit: BoxFit.cover),
+            ),
           ),
           Container(
-            decoration:
-                const BoxDecoration(color: Color.fromRGBO(255, 255, 255, 0.5)),
+            decoration: const BoxDecoration(
+              color: Color.fromRGBO(255, 255, 255, 0.5),
+            ),
           ),
           Center(
             child: Padding(
